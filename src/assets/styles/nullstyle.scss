@@ -1,0 +1,79 @@
+//Основный переменные
+$color-font-main: #333333;
+$color-font-second: #AAAAAA;
+$color-font-bg:#E2EFFF;
+$color-font-hover: #125BAE;
+$color-font-history: #5A0488;
+
+$color-brand: #7397F5;
+
+$color-border: #D5D5D5;
+$color-icons: #CBCBCB;
+$color-white: #FFFFFF;
+$scroll-bar: #F2F2F2;
+
+$fz-12: .75em;
+$fz-16: 16px;
+$fz-14: 14px;
+$ff-main: 'Inter', sans-serif;
+$ff-sec: 'PT Sans', sans-serif;
+
+$fw: 400;
+$fw-500: 500;
+$fw-700: 700;
+
+$lh-16: 16px;
+$lh-14: 14px;
+$lh-12: .75em;
+    
+//Обнуление стилей
+
+*,
+*::before,
+*::after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+	
+
+a{
+	text-decoration: none;
+}
+
+ul,
+li{
+	list-style: none;
+	color: #393939;
+	font-family: $ff-main;
+	font-style: normal;
+	font-weight: $fw;
+	line-height: 16.94px;
+	font-size: $fz-14;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html, 
+body {
+	font-family: $ff-sec;
+	line-height: $lh-16;
+	font-size: $fz-16;
+	background: $color-white;
+	font-weight: $fw;
+}
+
+.active {
+	background: $color-font-bg;
+	color: $color-font-main;
+	border-radius: 4px;
+}
